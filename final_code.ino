@@ -17,10 +17,10 @@ const float maxWaterUsage = 0.25;
 const unsigned long resetInterval = 120000; // 2 min = 1 day simulation
 const unsigned long inputTimeout = 10000;   // 10 sec input timeout
 
-const char *ssid = "YUVI";
-const char *pass = "Yuvraj@123";
+const char *ssid = "YOUR_WIFI_SSID";
+const char *pass = "YOUR_WIFI_PASSWORD";
 const char *server = "api.thingspeak.com";  
-String apiKey = "AKMVCGU0M17ICNBD";
+String apiKey = "YOUR_WRITE_API_KEY_OF_THINGSPEAK";
 
 WiFiClient client;
 WebServer webServer(80);
